@@ -1,3 +1,4 @@
+pip install nltk
 import nltk
 from nltk.tokenize import word_tokenize
 import streamlit as st
@@ -151,5 +152,6 @@ if about:
      sentiment analysis
                          
      Text summarization""")
+
 
 st.subheader("Made by Nk")
